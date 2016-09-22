@@ -1,0 +1,26 @@
+{
+  "name": "stock_test",
+  "description": "SAIG POS",
+  "main": "index.js",
+  "authors": [
+    "SAIG"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5",
+    "angular-sanitize": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "angular-bootstrap": "^2.1.3",
+    "angular-ui": "^0.4.0",
+    "bootstrap": "^3.3.7"
+  }
+}
