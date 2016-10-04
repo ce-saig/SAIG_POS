@@ -4,6 +4,7 @@ var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
 
 module.exports = function (app) {
+
   if(process.env.NODE_ENV === 'development'){
     app.use(morgan('dev'));
   }else{
@@ -14,7 +15,7 @@ module.exports = function (app) {
   }));
   app.use(bodyParser.json());
   app.use(methodOverride());
-  app.use(express.static(__dirname+'/public'));
+  app.use(express.static('public'));
   //call model file
   require('../app/models/article.server.model')(app);
   //call routing file

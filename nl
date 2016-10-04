@@ -1,1 +1,0 @@
-sawas d krub
